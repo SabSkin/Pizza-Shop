@@ -1,0 +1,43 @@
+.footer {
+  width: 100%;
+  height: 202px;
+  background-color: white;
+  margin-top: auto;
+}
+
+.content {
+  margin-left: 500px;
+  margin-right: 500px;
+  display: flex;
+}
+
+.conteinerLogo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoContent {
+  display: flex;
+  margin-top: 40px;
+}
+
+.logoContent p {
+  margin-left: 10px;
+}
+
+.textContent {
+  margin-top: 70px;
+}
+
+.conatcts {
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: auto;
+}
+
+.dsjc {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}

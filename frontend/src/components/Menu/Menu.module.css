@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist+Mono:wght@100..900&family=LXGW+WenKai+Mono+TC&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logoText {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.navbarMenu {
+  display: flex;
+  gap: 15px;
+}
+
+.navbarMenu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  padding: 5px 10px;
+  transition: color 0.3s;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.navbarMenu a:hover {
+  color: #ff6600;
+}
+
+.navbarCart {
+  display: flex;
+  align-items: center;
+}
+
+.cart-btn {
+  display: flex;
+  align-items: center;
+  background-color: #ff6600;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-btn .cart-icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.cart-btn:hover {
+  background-color: #e65a00;
+}
+
+.iconsContent {
+  display: flex;
+}
+
+.profil {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  color: #ff6600;
+  cursor: pointer;
+}

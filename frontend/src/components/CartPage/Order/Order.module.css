@@ -1,0 +1,10 @@
+.main {
+  width: 100%;
+
+  background-color: rgb(250, 248, 248);
+}
+
+.content {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}

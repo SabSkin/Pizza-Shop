@@ -1,0 +1,51 @@
+.content {
+  width: 105px;
+  height: 105px;
+  background-color: white;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.contentActive {
+  width: 105px;
+  height: 105px;
+  background-color: white;
+  border: 1px solid #ff7010;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-weight: 400;
+  text-align: center;
+}
+
+.textFalse {
+  font-weight: 400;
+  text-align: center;
+  color: #a5a5a5;
+}
+
+.conteiner {
+  display: flex;
+}
+
+.priseText {
+  color: #ff7010;
+  font-weight: 600;
+}

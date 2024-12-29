@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist+Mono:wght@100..900&family=LXGW+WenKai+Mono+TC&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(250, 248, 248);
+}
+
+.content {
+  margin-left: 310px;
+  margin-right: 310px;
+}
+
+.text {
+  display: flex;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+}
+
+.pizzaConteiner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

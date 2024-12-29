@@ -1,0 +1,22 @@
+.basketBtn {
+  width: 89px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #ff7010;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.par {
+  margin-left: 10px;
+  font-size: 17px;
+}
